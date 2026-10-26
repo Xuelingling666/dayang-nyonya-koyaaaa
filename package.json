@@ -1,0 +1,10 @@
+{
+  "name": "dayang-nyonya-koyaaaa",
+  "version": "1.0.0",
+  "description": "Discord music bot starter using Node.js and Lavalink",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {"start": "node src/index.js", "register": "node src/register-commands.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"discord.js": "^14.19.3", "dotenv": "^16.5.0", "lavalink-client": "^2.5.0"}
+}
